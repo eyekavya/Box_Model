@@ -1,0 +1,92 @@
+/* CSS Reset */
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.parentBox {
+    margin: 0 auto;
+    height: max-content;
+    width: max-content;
+}
+
+.box1{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(243, 82, 82);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(22, 100, 87);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(167, 128, 230);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(85, 209, 247);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box5{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(59, 182, 114);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box6{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(243, 169, 206);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box7{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(250, 224, 111);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box8{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(240, 126, 73);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.box9{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(153, 51, 51);
+    padding: 10px;
+    margin: 10px 10px;
+    display: inline-block;
+}
