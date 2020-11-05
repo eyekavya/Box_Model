@@ -1,5 +1,38 @@
 .parentBox {
-    margin: 0 auto;
-    height: max-content;
-    width: max-content;
+  margin: 0 auto;
+  height: max-content;
+  width: max-content;
+}
+
+.ex1ParentBox {
+  margin: 0 auto;
+  height: 350px;
+  width: 300px;
+  border: 1px solid rgba(128, 128, 128, 0.24);
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.pinkBox {
+  background-color: rgb(228, 111, 130);
+  width: 230px;
+  height: 230px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.blueBox {
+  width: 220px;
+  height: 220px;
+  border: 5px solid #000;
+  background-color: rgb(63, 194, 218);
+}
+.greenBox {
+  margin: 20px;
+  width: 180px;
+  height: 180px;
+  border: 0px;
+  background: #00ffed;
 }
