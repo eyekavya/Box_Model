@@ -6,9 +6,9 @@
 
 .ex1ParentBox {
   margin: 0 auto;
-  height: 350px;
-  width: 300px;
-  border: 1px solid rgba(128, 128, 128, 0.24);
+  height: 410px;
+  width: 350px;
+  border: 1px dotted rgba(128, 128, 128, 0.486);
   border-left: none;
   border-right: none;
   padding: 20px;
@@ -35,4 +35,66 @@
   height: 180px;
   border: 0px;
   background: #00ffed;
+}
+
+.contentBox {
+  display: inline-block;
+  height: 10px;
+  width: max-content;
+  margin-right: 10px;
+}
+
+.paddingBox {
+  display: inline-block;
+  height: 10px;
+  width: max-content;
+  margin-right: 10px;
+}
+
+.borderBox {
+  display: inline-block;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.marginBox {
+  display: inline-block;
+  height: 10px;
+}
+
+.bullet1 {
+  height: 16px;
+  width: 16px;
+  background-color: #00ffed;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bullet2 {
+  height: 16px;
+  width: 16px;
+  background-color: rgb(63, 194, 218);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bullet3 {
+  height: 16px;
+  width: 16px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bullet4 {
+  height: 16px;
+  width: 16px;
+  background-color: rgb(228, 111, 130);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bottomBox p {
+  display: inline-block;
+
 }

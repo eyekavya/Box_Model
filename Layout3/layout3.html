@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- To centre the layout -->
     <div class="parentBox">
+      <h1>The Box-Model, Box-Sizing & Box-Shadow</h1>
 
-        <h1>The Box-Model, Box-Sizing & Box-Shadow</h1>
-
-        <div class="ex1ParentBox">
-            <h2>Exercise1</h2>
-            <div class="pinkBox">
-                <div class="blueBox">
-                    <div class="greenBox">
-
-                    </div>
-                </div>
-            </div>
+      <!-- Exercise 1 -->
+      <div class="ex1ParentBox">
+        <!-- Box for Grey Border -->
+        <h2>Exercise1</h2>
+        <div class="pinkBox">
+          <!-- Outer Pink Box -->
+          <div class="blueBox">
+            <!-- Middle Blue Box -->
+            <div class="greenBox"></div>
+            <!-- Inner Green Box -->
+          </div>
         </div>
-
+        <div class="bottomBox">
+          <!-- Footer of Exercise1 Box -->
+          <div class="contentBox">
+            <div class="bullet1"></div>
+            <p>Content</p>
+          </div>
+          <div class="paddingBox">
+            <div class="bullet2"></div>
+            <p>Padding</p>
+          </div>
+          <div class="borderBox">
+            <div class="bullet3"></div>
+            <p>Border</p>
+          </div>
+          <div class="marginBox">
+            <div class="bullet4"></div>
+            <p>Margin</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
