@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -13,7 +17,6 @@
 
       <!-- Exercise 1 -->
       <div class="ex1ParentBox">
-        <!-- Box for Grey Border -->
         <h2>Exercise1</h2>
         <div class="pinkBox">
           <!-- Outer Pink Box -->
@@ -41,6 +44,36 @@
             <div class="bullet4"></div>
             <p>Margin</p>
           </div>
+        </div>
+      </div>
+      <!-- Exercise 2 -->
+      <div class="ex2ParentBox1">
+        <h2>Exercise2</h2>
+        <p>no border on these boxes.</p>
+        <div class="ex2OuterBoxes">
+          <div class="ex2NoBorderBoxes"></div>
+          <div class="ex2NoBorderBoxes"></div>
+          <div class="ex2NoBorderBoxes"></div>
+        </div>
+      </div>
+
+      <div class="ex2ParentBox1">
+        <p>1px border on these boxes.</p>
+        <div class="ex2OuterBoxes onePxBorder">
+          <div id="ex2OutterInnerBox">
+            <div class="ex2NoBorderBoxes"></div>
+            <div class="ex2NoBorderBoxes"></div>
+          </div>
+          <div class="ex2NoBorderBoxes"></div>
+        </div>
+      </div>
+
+      <div class="ex2ParentBox1">
+        <p>1px border on these boxes but they are in same line.</p>
+        <div class="ex2OuterBoxes">
+          <div style="border: 1px solid black; width: 118px;" class="ex2NoBorderBoxes"></div>
+          <div style="border: 1px solid black; width: 118px;" class="ex2NoBorderBoxes"></div>
+          <div style="border: 1px solid black; width: 118px;" class="ex2NoBorderBoxes"></div>
         </div>
       </div>
     </div>

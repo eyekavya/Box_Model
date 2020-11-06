@@ -4,11 +4,13 @@
   width: max-content;
 }
 
+/* Exercise 1 */
+
 .ex1ParentBox {
   margin: 0 auto;
-  height: 410px;
+  /* height: 410px; */
   width: 350px;
-  border: 1px dotted rgba(128, 128, 128, 0.486);
+  border: 2px dotted rgba(128, 128, 128, 0.486);
   border-left: none;
   border-right: none;
   padding: 20px;
@@ -96,5 +98,54 @@
 
 .bottomBox p {
   display: inline-block;
+}
 
+/* Exercise 2 */
+
+.ex2ParentBox1 {
+  margin: 0 auto;
+  width: 397px;
+  border-bottom: 2px dotted rgba(128, 128, 128, 0.486);
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.ex2ParentBox1 p {
+  font-family: "Syne Mono", monospace;
+}
+
+.ex2OuterBoxes {
+  height: 91px;
+  width: 383px;
+  margin: 5px 0px;
+  border: 2px solid grey;
+  padding: 0 4.5px;
+}
+
+.ex2NoBorderBoxes {
+  height: 75px;
+  width: 120px;
+  margin: 8px 2.5px;
+  background-color: grey;
+  display: inline-block;
+}
+.onePxBorder div {
+  border: 1px solid black;
+}
+.onePxBorder {
+  height: max-content;
+}
+.onePxBorder div:last-child {
+  display: block;
+  margin-top: 0;
+}
+#ex2OutterInnerBox {
+  border: none;
+  display: block;
+  width: 260px;
+}
+#ex2OutterInnerBox div {
+  display: inline-block;
 }
