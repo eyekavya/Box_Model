@@ -1,0 +1,33 @@
+.homeBox {
+    margin: 0 auto;
+    height: 500px;
+    width: 400px;
+    background-color: #cce7e8;
+}
+
+.box1 {
+    height: 70px;
+    width: 150px;
+    background-color: rgb(153, 51, 51);
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box2 {
+    height: 70px;
+    width: 150px;
+    background-color: rgb(153, 51, 51);
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box3 {
+    height: 70px;
+    width: 150px;
+    background-color: rgb(153, 51, 51);
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+}
