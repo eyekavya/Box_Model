@@ -159,7 +159,7 @@ table {
   font-size: 30px;
   transition: all ease-in-out 0.5s;
 }
-.btn:hover{
+.btn:hover {
   background-color: white;
   color: rgb(153, 51, 51);
 }
